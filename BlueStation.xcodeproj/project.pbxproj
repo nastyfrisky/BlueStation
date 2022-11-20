@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D64A33C291EA93E00D03388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64A33B291EA93E00D03388 /* AppDelegate.swift */; };
+		4D64A33E291EA93E00D03388 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64A33D291EA93E00D03388 /* SceneDelegate.swift */; };
+		4D64A340291EA93E00D03388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64A33F291EA93E00D03388 /* ViewController.swift */; };
+		4D64A343291EA93E00D03388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D64A341291EA93E00D03388 /* Main.storyboard */; };
+		4D64A345291EA93F00D03388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D64A344291EA93F00D03388 /* Assets.xcassets */; };
+		4D64A348291EA93F00D03388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D64A346291EA93F00D03388 /* LaunchScreen.storyboard */; };
+		4DAD667529226E7F0076A815 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD667429226E7F0076A815 /* Connection.swift */; };
+		4DAD6677292282CA0076A815 /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD6676292282CA0076A815 /* Receiver.swift */; };
+		4DAD66792922A7DA0076A815 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD66782922A7DA0076A815 /* LocationProvider.swift */; };
+		4DF63E3029210295007E2323 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF63E2F29210295007E2323 /* AudioRecorder.swift */; };
+		4DF63E3229212C85007E2323 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF63E3129212C85007E2323 /* AudioPlayer.swift */; };
+		4DF63E3A29222320007E2323 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF63E3929222320007E2323 /* StateView.swift */; };
+		4DF63E3C2922314E007E2323 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF63E3B2922314E007E2323 /* Presenter.swift */; };
+		4DF63E3F292232FA007E2323 /* CentralManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF63E3E292232FA007E2323 /* CentralManagerService.swift */; };
+		4DF63E4129223340007E2323 /* AudioUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF63E4029223340007E2323 /* AudioUUID.swift */; };
+		4DF63E4329224FD0007E2323 /* MicrophoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF63E4229224FD0007E2323 /* MicrophoneButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D64A338291EA93E00D03388 /* BlueStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D64A33B291EA93E00D03388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D64A33D291EA93E00D03388 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D64A33F291EA93E00D03388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D64A342291EA93E00D03388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D64A344291EA93F00D03388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D64A347291EA93F00D03388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D64A349291EA93F00D03388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAD667429226E7F0076A815 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		4DAD6676292282CA0076A815 /* Receiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
+		4DAD66782922A7DA0076A815 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		4DF63E2F29210295007E2323 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		4DF63E3129212C85007E2323 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		4DF63E3929222320007E2323 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		4DF63E3B2922314E007E2323 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		4DF63E3E292232FA007E2323 /* CentralManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralManagerService.swift; sourceTree = "<group>"; };
+		4DF63E4029223340007E2323 /* AudioUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUUID.swift; sourceTree = "<group>"; };
+		4DF63E4229224FD0007E2323 /* MicrophoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D64A335291EA93E00D03388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D64A32F291EA93E00D03388 = {
+			isa = PBXGroup;
+			children = (
+				4D64A33A291EA93E00D03388 /* BlueStation */,
+				4D64A339291EA93E00D03388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D64A339291EA93E00D03388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D64A338291EA93E00D03388 /* BlueStation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D64A33A291EA93E00D03388 /* BlueStation */ = {
+			isa = PBXGroup;
+			children = (
+				4DF63E3D29223289007E2323 /* Services */,
+				4DF63E382922230A007E2323 /* UI */,
+				4D64A33B291EA93E00D03388 /* AppDelegate.swift */,
+				4D64A33D291EA93E00D03388 /* SceneDelegate.swift */,
+				4D64A341291EA93E00D03388 /* Main.storyboard */,
+				4D64A344291EA93F00D03388 /* Assets.xcassets */,
+				4D64A346291EA93F00D03388 /* LaunchScreen.storyboard */,
+				4D64A349291EA93F00D03388 /* Info.plist */,
+			);
+			path = BlueStation;
+			sourceTree = "<group>";
+		};
+		4DF63E382922230A007E2323 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4D64A33F291EA93E00D03388 /* ViewController.swift */,
+				4DF63E3929222320007E2323 /* StateView.swift */,
+				4DF63E3B2922314E007E2323 /* Presenter.swift */,
+				4DF63E4229224FD0007E2323 /* MicrophoneButton.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		4DF63E3D29223289007E2323 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4DAD667429226E7F0076A815 /* Connection.swift */,
+				4DF63E3E292232FA007E2323 /* CentralManagerService.swift */,
+				4DF63E4029223340007E2323 /* AudioUUID.swift */,
+				4DF63E2F29210295007E2323 /* AudioRecorder.swift */,
+				4DF63E3129212C85007E2323 /* AudioPlayer.swift */,
+				4DAD6676292282CA0076A815 /* Receiver.swift */,
+				4DAD66782922A7DA0076A815 /* LocationProvider.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D64A337291EA93E00D03388 /* BlueStation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D64A34C291EA93F00D03388 /* Build configuration list for PBXNativeTarget "BlueStation" */;
+			buildPhases = (
+				4D64A334291EA93E00D03388 /* Sources */,
+				4D64A335291EA93E00D03388 /* Frameworks */,
+				4D64A336291EA93E00D03388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueStation;
+			productName = BlueStation;
+			productReference = 4D64A338291EA93E00D03388 /* BlueStation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D64A330291EA93E00D03388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4D64A337291EA93E00D03388 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D64A333291EA93E00D03388 /* Build configuration list for PBXProject "BlueStation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D64A32F291EA93E00D03388;
+			productRefGroup = 4D64A339291EA93E00D03388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D64A337291EA93E00D03388 /* BlueStation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D64A336291EA93E00D03388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D64A348291EA93F00D03388 /* LaunchScreen.storyboard in Resources */,
+				4D64A345291EA93F00D03388 /* Assets.xcassets in Resources */,
+				4D64A343291EA93E00D03388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D64A334291EA93E00D03388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D64A340291EA93E00D03388 /* ViewController.swift in Sources */,
+				4DF63E3A29222320007E2323 /* StateView.swift in Sources */,
+				4DF63E3C2922314E007E2323 /* Presenter.swift in Sources */,
+				4DF63E4329224FD0007E2323 /* MicrophoneButton.swift in Sources */,
+				4DF63E4129223340007E2323 /* AudioUUID.swift in Sources */,
+				4D64A33C291EA93E00D03388 /* AppDelegate.swift in Sources */,
+				4DF63E3229212C85007E2323 /* AudioPlayer.swift in Sources */,
+				4DAD6677292282CA0076A815 /* Receiver.swift in Sources */,
+				4DAD667529226E7F0076A815 /* Connection.swift in Sources */,
+				4D64A33E291EA93E00D03388 /* SceneDelegate.swift in Sources */,
+				4DF63E3F292232FA007E2323 /* CentralManagerService.swift in Sources */,
+				4DF63E3029210295007E2323 /* AudioRecorder.swift in Sources */,
+				4DAD66792922A7DA0076A815 /* LocationProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D64A341291EA93E00D03388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D64A342291EA93E00D03388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D64A346291EA93F00D03388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D64A347291EA93F00D03388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D64A34A291EA93F00D03388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D64A34B291EA93F00D03388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D64A34D291EA93F00D03388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S34BZ3639A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueStation/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nastia.BlueStation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D64A34E291EA93F00D03388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S34BZ3639A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueStation/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nastia.BlueStation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D64A333291EA93E00D03388 /* Build configuration list for PBXProject "BlueStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D64A34A291EA93F00D03388 /* Debug */,
+				4D64A34B291EA93F00D03388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D64A34C291EA93F00D03388 /* Build configuration list for PBXNativeTarget "BlueStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D64A34D291EA93F00D03388 /* Debug */,
+				4D64A34E291EA93F00D03388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D64A330291EA93E00D03388 /* Project object */;
+}
